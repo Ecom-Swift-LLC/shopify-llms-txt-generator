@@ -1,0 +1,39 @@
+{
+  "name": "shopify-llms-txt-generator",
+  "version": "1.0.0",
+  "description": "Generate and lint an llms.txt for a Shopify store from its public storefront data, with a ready-to-install Shopify page template.",
+  "license": "MIT",
+  "author": "Ecom Swift LLC",
+  "bin": {
+    "lltx": "bin/lltx.js"
+  },
+  "main": "lib/generate.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "samples"
+  ],
+  "keywords": [
+    "shopify",
+    "llms.txt",
+    "llms",
+    "ai",
+    "geo",
+    "seo",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ecom-Swift-LLC/shopify-llms-txt-generator.git"
+  },
+  "homepage": "https://github.com/Ecom-Swift-LLC/shopify-llms-txt-generator",
+  "bugs": {
+    "url": "https://github.com/Ecom-Swift-LLC/shopify-llms-txt-generator/issues"
+  }
+}
